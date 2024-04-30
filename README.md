@@ -74,4 +74,6 @@ Construção de métodos complexos:
 ![Refatoração](./assets/refactor.png)
 
 ## Construção Web Aplicação
-[Veja o repositório do BakeSmart no GitHub](https://github.com/kauanatomb/bakeSmartWeb)
+[Veja o repositório do BakeSmart no GitHub - FrontEnd](https://github.com/kauanatomb/bakeSmartFront)
+
+[Veja o repositório do BakeSmart no GitHub - BackEnd](https://github.com/kauanatomb/bakeSmartBack)
