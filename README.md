@@ -1,79 +1,78 @@
 # BakeSmart
 
-## Descrição
+## Description
 
-BakeSmart é uma aplicação projetada para resolver os desafios enfrentados por pequenos empreendedores culinários e entusiastas de culinária na gestão de custos de produção de receitas. Este projeto visa ajudar na definição de preços de venda e maximização dos lucros.
+BakeSmart is an application designed to address the challenges faced by small culinary entrepreneurs and cooking enthusiasts in managing the production costs of their recipes. This project aims to help in setting selling prices and maximizing profits.
 
-## Problema
+## Problem
 
-Muitos pequenos produtores de doces e salgados encontram dificuldades para calcular os custos de produção de suas receitas, o que afeta diretamente os preços de venda e os lucros. Métodos manuais, excel ou softwares complexos e caros são as opções mais comuns atualmente, tornando o processo trabalhoso e pouco acessível.
+Many small producers of sweets and savory snacks struggle to calculate the production costs of their recipes, which directly affects the selling prices and profits. Manual methods, Excel, or complex and expensive software are the most common options currently, making the process laborious and less accessible.
 
-![Calculos em caderno](./assets/problema.jpg)
+![Calculations in notes](./assets/problema.jpg)
 
-## Solução
+## Solution
 
-O BakeSmart resolve este problema oferecendo aos usuários uma plataforma para inserir ingredientes, custos, categorias e unidades de medida. Com esses dados, a aplicação realiza o cálculo automático do custo total de uma receita, simplificando o processo e proporcionando uma gestão mais eficiente.
+Many small producers of sweets and savory snacks struggle to calculate the production costs of their recipes, which directly affects the selling prices and profits. Manual methods, Excel, or complex and expensive software are the most common options currently, making the process laborious and less accessible.
 
-![Anotações](./assets/anotação.jpg)
+![Notes](./assets/anotação.jpg)
 
-## Funcionalidades
+## Features
 
-- Cadastro de ingredientes com custos unitários e unidades de medida.
-- Criação de receitas com ingredientes, quantidades e medidas.
-- Cálculo dos custos de produção por receita.
+- Registration of ingredients with unit costs and units of measure.
+- Creation of recipes with ingredients, quantities, and measures.
+- Calculation of production costs per recipe.
 
-## Funcionalidades Futuras
+## Future features
 
-- Sugestão de preço de venda baseada nos custos e margem de lucro desejada.
-- Gestão de estoque.
-- Programação de receitas de acordo com calendário.
-- Relatórios visuais para exibir custos e lucros de cada receita.
+- Suggestion of selling price based on costs and desired profit margin.
+- Inventory management.
+- Recipe scheduling according to a calendar.
+- Visual reports to display costs and profits of each recipe.
 
 ## Classes
 
 - **Ingredient**
-    - Lista estática de ingredientes
-    - Construtor
-    - Métodos para manipulação de dados
+    - Static list of ingredients
+    - Constructor
+    - Methods for data manipulation
 
 - **Recipe**
-    - Construtor
-    - Métodos para adicionar ingredientes, calcular custos e conversão de unidades
+    - Constructor
+    - Methods to add ingredients, calculate costs, and unit conversion   
 
 - **Category**
-    - Lista estática de categorias
-    - Construtor
-    - Método para busca de categorias
+    - Static list of categories
+    - Constructor
+    - Method for category search
 
 - **Unit Of Measure**
-    - Lista estática de unidades de medida
-    - Construtor
-    - Método para obtenção de abreviação
+    - Static list of units of measure
+    - Constructor
+    - Method to obtain abbreviation
 
-## Implementação
+## Implementation
 
 ![Schema](./assets/schema.png)
 
-## Construção do Projeto
+## Project Construction
 
-Projeto iniciado com TDD:
+Project initiated with TDD:
 
-![TDD quebrando testes](./assets/TDD.png)
+![TDD failing tests](./assets/TDD.png)
 ----
 
-![TDD2 testes passaram](./assets/TDD2.png)
+![TDD2 passing tests](./assets/TDD2.png)
 
-Construção de métodos complexos:
+Building complex methods:
 
 ![Sudocode](./assets/sudocode.png)
 -----
 
-![Processo de código](./assets/processo.png)
+![Code process](./assets/processo.png)
 -----
 
-![Refatoração](./assets/refactor.png)
+![Refactoring](./assets/refactor.png)
 
-## Construção Web Aplicação
-[Veja o repositório do BakeSmart no GitHub - FrontEnd](https://github.com/kauanatomb/bakeSmartFront)
+## Web Application Construction
 
-[Veja o repositório do BakeSmart no GitHub - BackEnd](https://github.com/kauanatomb/bakeSmartBack)
+[See BakeSmart repository on GitHub - Api Node.js](https://github.com/kauanatomb/nodeApi)
